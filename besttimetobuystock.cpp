@@ -10,6 +10,7 @@ int main() {
         a.push_back(val);
     }
     int profit = maxProfit(a);
+    cout << profit << endl;
 }
 int maxProfit(vector<int>& prices) {
     int n=prices.size();
